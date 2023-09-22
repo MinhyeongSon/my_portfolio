@@ -1,0 +1,19 @@
+{
+  "name": "@projects/first",
+  "packageManager": "yarn@3.6.3",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.2.2"
+  }
+}

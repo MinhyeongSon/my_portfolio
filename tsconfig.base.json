@@ -7,11 +7,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-
+      "@projects/first": ["packages/microservice/first/src"]
     }
   },
   "files": [],
   "references": [
-
+    {"path": "./packages/microservice/first"},
   ]
 }

@@ -3,7 +3,8 @@
   "packageManager": "yarn@3.6.3",
   "private": true,
   "scripts": {
-    "app": "yarn workspace next-app dev"
+    "app": "yarn workspace next-app dev",
+    "first": "yarn workspace @projects/first"
   },
   "workspaces": [
     "packages/*/*"
