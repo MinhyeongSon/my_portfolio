@@ -19,6 +19,7 @@
       }
     ],
     "paths": {
+      "@projects/first": ["../../microservice/first/src"],
       "@/*": ["./*"]
     }
   },
