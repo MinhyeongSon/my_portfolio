@@ -25,3 +25,12 @@ Side Project들을 모두 취합하여 Routing을 통해 한 Web App에서 보�
 - Project가 추가될 때마다 Package는 이 곳에 추가 됩니다.
 
 - 따로 APP의 형태로 구성하지 않고 React 및 상태관리 Lib를 활용한 Component Lib의 형태로 구성할 예정입니다.
+
+
+## Check Please
+Side Project를 추가했다면 Next에서 해당 프로젝트의 Component를 읽어들일 수 있도록 세팅해줘야합니다.
+
+### Check List
+
+- App의 tsconfig.json Path 잡아주기.
+- next.config.json에서 외부 Directory 사용할 수 있도록 세팅되어있는지 확인하기.
