@@ -12,6 +12,7 @@
     "compile": "tsc"
   },
   "devDependencies": {
+    "axios": "^1.5.0",
     "react": "^18.2.0",
     "rimraf": "^5.0.1",
     "typescript": "^5.2.2"

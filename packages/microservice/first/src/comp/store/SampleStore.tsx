@@ -1,8 +1,5 @@
-import React from "react";
 
 const SampleStore = () => {
-    return (
-        <></>
-    )
+    return ""
 }
 export default SampleStore;
