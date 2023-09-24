@@ -26,6 +26,8 @@ Side Project들을 모두 취합하여 Routing을 통해 한 Web App에서 보�
 ## 🗂️ MicroService
 실제 테마별 Project를 가지고 있을 Package입니다. 
 
+이 곳에서는 Vite를 사용해 빌드, 번들링 할 수 있도록 구성할 예정입니다.
+
 - Project가 추가될 때마다 Package는 이 곳에 추가 됩니다.
 
 - 따로 APP의 형태로 구성하지 않고 React 및 상태관리 Lib를 활용한 Component Lib의 형태로 구성할 예정입니다.
